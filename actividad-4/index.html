@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Actividad 4</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="m-3">
+	<h1>Si hay datos hay tabla</h1>
+
+	<h2>Tabla simple</h2>
+
+	<p>tabla - cuerpo - fila - celda</p>
+	<table class="table table-bordered">
+		<!-- tbody: table body -->
+		<tbody>
+			<!-- tr: table row -->
+			<tr>
+				<!-- td: table data cell -->
+				<td>Hola</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Tabla múltiples filas y columnas</h2>
+
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td>X</td>
+				<td>O</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>O</td>
+				<td>X</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>O</td>
+				<td>X</td>
+			</tr>
+  </table>
+
+	<h2>Tabla con cabecera y cuerpo</h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<thead>
+			<tr>
+				<!-- th: table head data -->
+				<th>Materias</th>
+				<th>Día y horario</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><strong>Educación y Políticas Públicas</strong></td>
+				<td>Lunes 6 PM</td>
+			</tr>
+			<tr>
+				<td><strong>Salud y Políticas Públicas</strong></td>
+				<td>Viernes 6 PM</td>
+			</tr>
+			<tr>
+				<td><strong>Informática</td>
+        <td>Miércoles 5 PM</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Tabla con cabecera, cuerpo, pie de página y caption</h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<caption>Soy la señora de los gatos de Los Simpsons</caption>
+		<thead>
+			<tr>
+				<th>Gatites en casa</th>
+				<th>Sexo</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><strong>Ariel</strong></td>
+				<td>Hembra</td>
+			</tr>
+			<tr>
+				<td><strong>Rina</strong></td>
+				<td>Hembra</td>
+			</tr>
+      <tr>
+				<td><strong>Benito</strong></td>
+				<td>Macho</td>
+      </tr>
+      <tr>
+				<td><strong>Dorita</strong></td>
+				<td>Hembra</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>Total</th>
+				<th>3 hembras y 1 macho</th>
+			</tr>
+		</tfoot>
+	</table>
+
+	<h2>Columnas largas</h2>
+
+	<table class="table table-bordered table-striped table-hover">
+		<thead class="table-dark">
+			<tr>
+				<th colspan="2">
+					Input
+				</th>
+				<th colspan="2">
+					Output
+				</th>
+			</tr>
+			<tr>
+				<th>A</th>
+				<th>B</th>
+				<th>And</th>
+				<th>Or</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>true</td>
+				<td>true</td>
+				<td>true</td>
+				<td>true</td>
+			</tr>
+			<tr>
+				<td>true</td>
+				<td>false</td>
+				<td>false</td>
+				<td>true</td>
+			</tr>
+			<tr>
+				<td>false</td>
+				<td>true</td>
+				<td>false</td>
+				<td>true</td>
+			</tr>
+			<tr>
+				<td>false</td>
+				<td>false</td>
+				<td>false</td>
+				<td>false</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+</body>
+
+</html>
